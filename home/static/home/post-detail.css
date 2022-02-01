@@ -1,0 +1,58 @@
+#summary{
+    margin: 8rem auto 3rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 90rem;
+    border-radius: 16px;
+    background-color: rgb(26, 25, 25);
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    height: 22rem;
+}
+
+#summary h2{
+    width: 75%;
+    color: white;
+    font-size: 3rem;
+}
+
+#summary article{
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-align: left;
+    color:white;
+    width: 300px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+#summary article img{
+    width: 12rem;
+    height: 12 rem;
+    border-radius: 12px;
+    transform: roatateZ(5deg);
+    border: 5px solid white;
+    margin-bottom: 1rem;
+}
+
+#summary address,
+#summary time {
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    max-width: 90rem;
+    margin:3rem;
+    background-color:rgb(26, 25, 25);
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+main p{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href={% static "home/all-post.css"%}>
+{% endblock %}
+
+{% block title %}All Post{% endblock %}
+
+{% block content%}
+
+    <ul class="ul">
+        {% for post in posts %}
+            {% include "home/includes/post.html" %}
+        {% endfor %}
+    </ul>
+
+{% endblock%}

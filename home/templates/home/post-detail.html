@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href={% static "home/post-detail.css"%}>
+{% endblock %}
+
+{% block title %}{{ posts.title }}{% endblock %}
+
+{% block content%}
+    <section id="summary">
+        <h2>{{ posts.title }}</h2>
+        <article>
+            <address>By {{ posts.author }}</address>
+            <div>
+                Last Updated On <time>{{ posts.date|date:"d M Y" }}</time>
+            </div>
+        </article>
+    </section>
+
+    <main>
+        <p>{{ posts.content|linebreaks }}</p>
+    </main>
+{% endblock %}

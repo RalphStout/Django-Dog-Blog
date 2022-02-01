@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+}
+h1 {
+    font-family: 'Source Serif 4', sans-serif;
+    text-decoration: underline;
+}
+
+p{ 
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/* Navigation Bar */
+
+header,
+nav{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+}
+
+nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav li{
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-size: 22px;
+    color: orange;
+}
+

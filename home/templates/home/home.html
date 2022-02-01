@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files%}
+<link rel="stylesheet" href={% static "home/home.css"%}>
+{% endblock %}
+
+{% block title %}DogGram{% endblock %}
+
+{% block content %}
+    <div class="text">
+        <h1>Welcome to Dog Blog</h1>
+        <p>
+            We are glad you're here if you havent 
+            already make sure to create an account
+            to keep in touch with new post
+        </p>
+        <a href="">Login</a>
+
+        <a href="">Sign-Up</a>
+    </div>
+ 
+{% endblock %}

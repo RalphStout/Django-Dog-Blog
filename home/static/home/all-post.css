@@ -1,0 +1,11 @@
+.ul{
+    list-style: none;
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-content: center;
+}

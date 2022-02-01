@@ -1,0 +1,39 @@
+.item {
+    width: 95%;
+    height: 35rem;
+    background-color: rgb(26, 25, 25);
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px rgb(51, 49, 49), -5px 5px 10px rgb(51, 49, 49);
+}
+
+.item:hover{
+    box-shadow: 10px 10px 15px white,  -10px -10px 15px white;
+}
+
+.post{
+    width: 90%;
+    margin:auto;
+    text-align: left;
+}
+
+h3{
+    font-size: 25px;
+    color: orange;
+    text-align: center;
+    border-bottom: 1px solid orange;
+    padding: 10px 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 95%;
+    height:13rem;
+    margin-top: 8px;
+    border-radius: 30px 30px 0px 0px;
+    position: relative;
+    left: 8px;
+}
