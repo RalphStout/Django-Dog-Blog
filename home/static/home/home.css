@@ -24,8 +24,15 @@
 }
 
 .slide_container{
-    height:10rem;
-    width: 35%;
+    height: 40rem;
+    width: 50%;
     border: 1px solid black;
+    position: absolute;
+    right: 0px;
+}
 
+.slide_container img{
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
