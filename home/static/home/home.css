@@ -22,3 +22,10 @@
     left: 100px;
     padding: 25px;
 }
+
+.slide_container{
+    height:10rem;
+    width: 35%;
+    border: 1px solid black;
+
+}
