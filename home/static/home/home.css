@@ -36,3 +36,15 @@
     width: 100%;
     position: relative;
 }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+  }
