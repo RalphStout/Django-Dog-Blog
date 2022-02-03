@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href={% static "home/confirmation.css"%}>
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>Registration Successful...</h2>
+    <p>
+        Thanks for Signing Up! Enjoy the content and feel 
+        free to create your own post to share your furry 
+        friend with the world!
+    </p>
+</div>
+{% endblock %}

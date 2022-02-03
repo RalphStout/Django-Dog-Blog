@@ -8,11 +8,14 @@
 {% block title %}DogGram{% endblock %}
 
 {% block content %}
+
     <div class="text">
         <h1>Welcome to Dog Blog</h1>
         <p>
             Were glad your here before you start 
-            looking around enjoy this slide of funny dogs
+            looking around enjoy this slide of funny dogs. 
+            After please sign up to create an account 
+            to create your own post
         </p>
     </div>
     <div class="slide_container">
@@ -21,5 +24,17 @@
         <img class="slide fade" src="{%static "home/images/funny1.jpg"%}" alt="">
     </div>
     <script src="{% static "home/home.js" %}"></script>
+
+    <div class="form">
+        <form action="{% url 'home' %}" method="POST">
+            {% csrf_token %}
+            <ul>
+                {{ form.as_ul }}
+            </ul>
+            <div id="signUp_Button">
+                <button>Sign Up</button>
+            </div>
+        </form>
+    </div>
  
 {% endblock %}

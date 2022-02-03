@@ -1,0 +1,18 @@
+div{
+    width: 60%;
+    height: 35rem;
+    margin: auto;
+    background-color: rgb(36, 36, 36);
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    top: 2rem;
+}
+
+div h2,
+div p{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 4rem;
+}

@@ -5,7 +5,7 @@
 {% endblock %}
 
 <li class="item">
-    <img src="{% static "home/images/"|add:post.image%}" alt="{{ post.title }}">
+    <img src="{{ post.image.url }}" alt="{{ post.title }}">
     <article class="post">
         <a href="{% url "post_details" post.slug %}">
             <h3>{{ post.title }}</h3>
